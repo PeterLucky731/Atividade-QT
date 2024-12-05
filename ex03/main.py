@@ -17,7 +17,7 @@ class CountAposta(QMainWindow):
         
         try:
             aposta = float(self.ui.aposta.text())
-            numero0a100 = random.randint(0, 2)
+            numero0a100 = random.randint(0, 100)
             if aposta == numero0a100:
                 QMessageBox.information(self, "Resultado", "Você ganhou!")
                 #self.ui.result.setText("ganho")

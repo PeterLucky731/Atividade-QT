@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background color: rgba(195,13,13,255);</string>
+   <string notr="true">background-color: rgb(255, 67, 67);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="aposta">
@@ -25,6 +25,10 @@
       <width>171</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QLabel" name="result">
@@ -40,6 +44,9 @@
      <font>
       <pointsize>22</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 30);</string>
     </property>
     <property name="text">
      <string>முட்டாள் :), முட்டாள்தனமான பந்தயம்</string>
@@ -62,6 +69,9 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(252, 255, 43);</string>
+    </property>
     <property name="text">
      <string>பந்தயம்</string>
     </property>
@@ -79,7 +89,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../Downloads/triguin.png</pixmap>
+     <pixmap>triguin.png</pixmap>
     </property>
    </widget>
   </widget>
